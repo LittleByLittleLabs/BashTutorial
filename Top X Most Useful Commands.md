@@ -72,4 +72,25 @@ tail -f /var/log/application.log | grep 24.10.160.10
 ```
 ps aux | grep java
 ```
-----------
+
+#### List / Search running processes
+Ever did something and forgot how. **history** to the rescue
+```
+history
+```
+
+#### Permissions, Permissions, Permissions
+Confident you have the right command but still not working? It's likely a permissions issue. Bites the best of us.
+```
+ls -al .
+```
+|   Symbolic Notation | Octal Notation	          | English              |
+ ----------------- | ---------------------------- | ------------------
+| `----------`       | `0000`                     | `no permissions` |
+| `---x--x--x`       | `0111`                     | `execute` |
+| `--w--w--w-`       | `0222`                     | `write` |
+| `--wx-wx-wx`       | `0333`                     | `write & execute` |
+| `-r--r--r--`       | `0444`                     | `read` |
+| `-r-xr-xr-x`       | `0555`                     | `read & execute` |
+| `-rw-rw-rw-`       | `0666`                     | `read & write` |
+| `-rwxrwxrwx`       | `0777`                     | `read, write, & execute` |
