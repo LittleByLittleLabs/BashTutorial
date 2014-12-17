@@ -94,3 +94,20 @@ ls -al .
 | `-r-xr-xr-x`       | `0555`                     | `read & execute` |
 | `-rw-rw-rw-`       | `0666`                     | `read & write` |
 | `-rwxrwxrwx`       | `0777`                     | `read, write, & execute` |
+
+> **Tip:** You likely want to set 755 for executable scripts .
+
+#### Understanding your shell env
+> - All the programs that run under Linux are called as processes. 
+> - Processes run continuously in Linux and you can kill or suspend different processes using various commands. 
+> - When you start a program a new process is created. This process runs within what is called an environment.  
+> - Every program runs in its own environment. You can set parameters in this environment so that the running program can find desired values when it runs. 
+
+Setting a particular parameter is as simple as typing VARIABLE=value . This would set a parameter by the name VARIABLE with the value that you provide. 
+
+**$PATH** 
+ This is a very important environment variable. 
+This would add the new directory to the existing PATH value.
+```
+PATH=$PATH:/newdirectory
+```
