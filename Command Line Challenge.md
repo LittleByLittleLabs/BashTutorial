@@ -30,7 +30,6 @@ dana, 2
 arthur, 3
 ...
 bob, 5
-
 ```
 
 **Acceptance Criteria: **
