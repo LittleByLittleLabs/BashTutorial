@@ -24,8 +24,15 @@ New employee has been notified that he/she is ready to do work and is able to lo
  
 
 ####**Suppose You're working @Netflix**
-Suppose you are at Netflix and your next task is to combine 3 files into 1, sorted alphabetically using your command line skills. Here are the three files which contain movie ratings *movie_ratings_ca*, *movie_ratings_nv*, *movie_ratings_tx*.
- 
+Suppose you are at Netflix and your next task is to combine 3 files into 1, sorted alphabetically using your command line skills. Here are the three files which contain user ratings *user_ratings_ca*, *user_ratings_nv*, *user_ratings_tx*. You will often need to create your own input data as you would here. Your input data should look like the following:
+```
+dana, 2
+arthur, 3
+...
+bob, 5
+
+```
+
 **Acceptance Criteria: **
 One file which contains all movie ratings sorted alphabetically.
  
