@@ -66,7 +66,10 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 ```
 
 Sample output:
+```
 of: 5 
 the: 6
+```
+
 .... you get the idea
 
